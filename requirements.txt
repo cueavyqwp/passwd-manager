@@ -1,0 +1,5 @@
+ttkbootstrap
+langful
+pillow
+qrcode
+pyotp
