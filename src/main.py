@@ -18,10 +18,17 @@ class main:
         self.root.mainloop()
 
     def init(self) -> None:
-        pass
+        ttkbootstrap.Button(
+            self.root, command=self.create_file, text=self.langful.get("cerate_file")).pack()
+        self.input = ttkbootstrap.Entry(self.root)
+        self.input.pack()
 
     def update_language(self) -> None:
         self.root.title(self.langful.get("title"))
+
+    def create_file(self):
+        print(self.input.get())
+        print(secure.derive_passwd(self.input.get()))
 
 
 if __name__ == "__main__":
