@@ -1,5 +1,7 @@
 ttkbootstrap
+argon2-cffi
 langful
 pillow
 qrcode
 pyotp
+py7zr

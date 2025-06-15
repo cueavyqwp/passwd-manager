@@ -13,4 +13,4 @@ if not os.path.isdir(".venv"):
     subprocess.check_call(
         (executable, "-m", "pip", "install", "-r", "requirements.txt"))
 
-subprocess.check_call((executable, os.path.join("src", "main.py")))
+subprocess.check_call((executable, "-m", "src.main"))

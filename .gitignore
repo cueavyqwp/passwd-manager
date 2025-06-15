@@ -1,8 +1,12 @@
 /*
 
 !src
+!lang
 !run.py
 !LICENSE
 !README.md
 !.gitignore
 !requirements.txt
+
+__pycache__
+*.py[cod]
